@@ -6,13 +6,14 @@ return {
   { "sainnhe/everforest" },
   { "bluz71/vim-nightfly-colors" },
   { "NLKNguyen/papercolor-theme" },
+  { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = { style = "night" } },
   { "romainl/Apprentice" },
 
   -- Configure LazyVim to load colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "tokyonight",
     },
   },
 }
